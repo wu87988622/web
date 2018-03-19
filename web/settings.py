@@ -119,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+import os
+if os.getenv('DATABASE_URL') is not None:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.config()

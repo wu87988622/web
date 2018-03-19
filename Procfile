@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath web web.wsgi
+web: python manage.py rumserver 0.0.0.0:$PORT
