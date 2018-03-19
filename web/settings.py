@@ -25,7 +25,7 @@ SECRET_KEY = '0+)^p_1(l%bqwa60y-flsu15(fnhw-0he+&2v%zl&%s_ikx7-!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['agile-taiga-79264.herokuapp.com']
 
 
 # Application definition
